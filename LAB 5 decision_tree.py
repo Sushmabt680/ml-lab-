@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1oJZh-ER_2OEnqnBVne6jXXBtpxHp21Z_
 """
 
-import pandas as pd
+1)import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
@@ -50,7 +50,7 @@ print("\nIRIS Accuracy:", accuracy_score(y_test, y_pred))
 print("\nIRIS Confusion Matrix:")
 print(confusion_matrix(y_test, y_pred))
 
-print("\nUpload drug.csv file")
+2)print("\nUpload drug.csv file")
 uploaded = files.upload()
 
 
